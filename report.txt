@@ -1,0 +1,51 @@
+PII SCANNER — SCAN REPORT
+============================================================
+Scan Time: 2026-05-28 18:14:55
+Total Issues: 9
+============================================================
+
+File    : .\test_files\sample_backend.py
+Line    : 2
+Type    : Email Address
+Content : email = "john.doe@gmail.com"
+----------------------------------------
+File    : .\test_files\sample_backend.py
+Line    : 3
+Type    : Hardcoded Password
+Content : password = "mysecret123"
+----------------------------------------
+File    : .\test_files\sample_backend.py
+Line    : 4
+Type    : API Key / Token
+Content : api_key = "sk-abcdefghijklmnop1234567890"
+----------------------------------------
+File    : .\test_files\sample_backend.py
+Line    : 5
+Type    : Phone Number
+Content : phone = "9876543210"
+----------------------------------------
+File    : .\test_files\sample_backend.py
+Line    : 6
+Type    : IP Address
+Content : ip = "192.168.1.1"
+----------------------------------------
+File    : .\test_files\sample_backend.py
+Line    : 7
+Type    : API Key / Token
+Content : access_token = "ghp_aBcDeFgHiJkLmNoPqRsTuVwXyZ123456"
+----------------------------------------
+File    : .\test_files\sample_frontend.js
+Line    : 2
+Type    : Email Address
+Content : email: "jane.smith@company.com",
+----------------------------------------
+File    : .\test_files\sample_frontend.js
+Line    : 3
+Type    : Credit Card Number
+Content : credit_card: "4111 1111 1111 1111",
+----------------------------------------
+File    : .\test_files\sample_frontend.js
+Line    : 5
+Type    : IP Address
+Content : server: "192.168.0.105"
+----------------------------------------
