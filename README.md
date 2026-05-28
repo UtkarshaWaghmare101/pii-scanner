@@ -24,8 +24,8 @@ Developers accidentally leak sensitive data in source code every day:
 
 | PII Type | Example |
 |---|---|
-| Email Address | `john@gmail.com` |
-| Phone Number | `+91 9876543210` |
+| Email Address | `melody@gmail.com` |
+| Phone Number | `+13207661354` |
 | IP Address | `192.168.1.1` |
 | Hardcoded Password | `password = "secret123"` |
 | API Key / Token | `api_key = "sk-abc123..."` |
@@ -80,10 +80,10 @@ PII SCANNER — SCAN REPORT
 Scan Time : 2026-05-28 18:14:55
 Total Issues Found : 9
 📄 FILE: test_files\sample_backend.py
-Line    2  |  Email Address           |  email = "john.doe@gmail.com"
+Line    2  |  Email Address           |  email = "melody.doe@gmail.com"
 Line    3  |  Hardcoded Password      |  password = "mysecret123"
 Line    4  |  API Key / Token         |  api_key = "sk-abcdefghijklmnop..."
-Line    5  |  Phone Number            |  phone = "9876543210"
+Line    5  |  Phone Number            |  phone = "13207661354"
 Line    6  |  IP Address              |  ip = "192.168.1.1"
 📄 FILE: test_files\sample_frontend.js
 Line    2  |  Email Address           |  email: "jane.smith@company.com"
